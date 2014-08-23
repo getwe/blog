@@ -15,7 +15,7 @@ language: zh-CN
 url: http://getwe.github.com
 root: /
 #permalink: :year/:month/:day/:title/
-permalink: :year/:month/:title/
+permalink: :category/:title/
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
