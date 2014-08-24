@@ -10,6 +10,8 @@ categories:
 
 一些关于cgo的零散笔记.
 
+<!-- more -->
+
 #cgo编译
 ```go
 /*
@@ -56,3 +58,31 @@ c函数需要的func(char * buf,int len)这样一块内存进行操作,go传递�
 buf := make([]byte,10240)
 C.func( (*C.char)(unsafe.Pointer(&buf[0])) , C.int(len(buf)) )
 ```
+
+#标准C数值类型在go中的类型
+| *go*        | *c*                |
+|-------------|--------------------|
+| C.char      | char               |
+| C.schar     | signed char        |
+| C.uchar     | unsigned char      |
+| C.short     | short              |
+| C.ushort    | unsigned short     |
+| C.int       | int                |
+| C.uint      | unsigned int       |
+| C.long      | long               |
+| C.ulong     | unsigned long      |
+| C.longlong  | long long          |
+| C.ulonglong | unsigned long long |
+| C.float     | float              |
+| C.double    | double             |
+| void*       | unsafe.Pointer     |
+
+#cgo在命令行传递选项给c编译器
+```bash
+go tool cgo [compiler options] file.go
+```
+[compiler options]传递给gcc,作为编译c代码的编译选项
+
+
+
+
