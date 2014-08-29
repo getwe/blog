@@ -19,6 +19,9 @@ tags:
 
 ###database模块
 ####[磁盘索引DiskIndex](/技术/搜索引擎/goose/database-diskindex/)
+####[内存索引MemoryIndex](/技术/搜索引擎/goose/database-memoryindex/)
+####[ID管理器](/技术/搜索引擎/goose/database-idmanager/)
+####[Value管理器](/技术/搜索引擎/goose/database-valuemanager/)
 
 ##第二部分 goose的二次开发
 
