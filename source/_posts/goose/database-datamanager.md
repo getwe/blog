@@ -38,7 +38,7 @@ goose中对Data数据的写操作只支持在末尾追加写.
 
 在实现上采用了跟[磁盘索引DiskIndex](/技术/搜索引擎/goose/database-diskindex/)非常类似的设计.如图采用了两层索引.
 
-![磁盘索引结构](/static/img/goose-datamanager.png)
+![Data磁盘数据结构](/static/img/goose-datamanager.png)
 
 ###二级索引
 把每个写入的Doc的Data数据顺序写到磁盘文件,索引信息就是`FileNo,Offset,Length`.
