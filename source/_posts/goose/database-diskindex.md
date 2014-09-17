@@ -1,4 +1,4 @@
-title: goose自己写的搜索引擎-磁盘索引database.DiskIndex
+title: goose自己写的搜索引擎-磁盘索引DiskIndex
 date: 2014-08-23 14:51:31
 categories: 
 - 技术

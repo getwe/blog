@@ -1,4 +1,4 @@
-title: goose自己写的搜索引擎-内存索引database.MemoryIndex
+title: goose自己写的搜索引擎-内存索引MemoryIndex
 date: 2014-08-24 20:06:31
 categories: 
 - 技术

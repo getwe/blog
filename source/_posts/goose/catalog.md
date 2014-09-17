@@ -10,8 +10,8 @@ tags:
 ---
 #目录
 
-##[序言0](/技术/搜索引擎/goose/Preface0/)
-##[序言1](/技术/搜索引擎/goose/Preface1/)
+##[序言0](/技术/搜索引擎/goose/preface0/)
+##[序言1](/技术/搜索引擎/goose/preface1/)
 
 <!-- more -->
 
@@ -22,6 +22,7 @@ tags:
 ####[内存索引MemoryIndex](/技术/搜索引擎/goose/database-memoryindex/)
 ####[ID管理器](/技术/搜索引擎/goose/database-idmanager/)
 ####[Value管理器](/技术/搜索引擎/goose/database-valuemanager/)
+####[Data管理器](/技术/搜索引擎/goose/database-datamanager/)
 
 ##第二部分 goose的二次开发
 
