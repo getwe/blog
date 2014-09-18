@@ -24,6 +24,9 @@ tags:
 ####[Value管理器](/技术/搜索引擎/goose/database-valuemanager/)
 ####[Data管理器](/技术/搜索引擎/goose/database-datamanager/)
 
+####[静态索引StaticIndex](/技术/搜索引擎/goose/database-staticindex/)
+####[动态索引VarIndex](/技术/搜索引擎/goose/database-varindex/)
+
 ##第二部分 goose的二次开发
 
 ##第三部分 通用搜索引擎cse
