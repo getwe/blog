@@ -103,7 +103,7 @@ feed:
 
 
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: icarus
+theme: hexo-theme-icarus
 exclude_generator:
 
 # Deployment
