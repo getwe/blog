@@ -12,7 +12,7 @@ email: honggengwei@gmail.com
 language: zh-CN
 follow: https://github.com/getwe/
 location: 'Shenzhen, China'
-avatar: https://avatars2.githubusercontent.com/u/4312226
+avatar: /static/img/avatars.png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -109,7 +109,7 @@ exclude_generator:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-    type: github
+    type: git
     repository: git@github.com:getwe/getwe.github.io.git
     branch: master
 
