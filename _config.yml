@@ -5,10 +5,14 @@
 # Site
 title: getwe`s Blog
 subtitle: 做一名全栈工程师
-description: 找一个地方,整理笔记软件上的各种笔记,转发的居多
+description: 
 author: getwe
+author_title: ''
 email: honggengwei@gmail.com
 language: zh-CN
+follow: https://github.com/getwe/
+location: 'Shenzhen, China'
+avatar: https://avatars2.githubusercontent.com/u/4312226
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -99,7 +103,7 @@ feed:
 
 
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: YesLandscape
+theme: icarus
 exclude_generator:
 
 # Deployment
@@ -108,3 +112,8 @@ deploy:
     type: github
     repository: git@github.com:getwe/getwe.github.io.git
     branch: master
+
+# DuoShuo
+duoshuo_shortname: getwegithub
+
+
